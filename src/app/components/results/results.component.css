@@ -1,0 +1,6 @@
+#results-container {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 1px solid black;
+    padding: 0px 20px 0px 20px;
+}
