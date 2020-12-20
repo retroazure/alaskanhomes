@@ -1,6 +1,8 @@
 #results-container {
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border: 1px solid black;
-    padding: 0px 20px 0px 20px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    /* border: 1px solid black; */
+    padding: 1px 20px 0px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #C3DBFF;
 }

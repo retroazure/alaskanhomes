@@ -10,6 +10,8 @@ import { PriceRangeComponent } from './components/price-range/price-range.compon
 import { ResultsComponent } from './components/results/results.component';
 import { ResultItemComponent } from './components/result-item/result-item.component';
 
+import { NgxSliderModule } from '@angular-slider/ngx-slider';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +20,12 @@ import { ResultItemComponent } from './components/result-item/result-item.compon
     PropertyTypeComponent,
     PriceRangeComponent,
     ResultsComponent,
-    ResultItemComponent
+    ResultItemComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

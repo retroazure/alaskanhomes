@@ -1,8 +1,14 @@
+@import "~fontsource-poppins/index.css";
+
 #app {
-    
+  background-color: #F5F9FF;
 }
 
 #app > #upper {
-    width: 100%;
-    padding: 0px 20px 0px 20px;
+  width: 100%;
+  padding: 0px 20px 0px 20px;
+}
+
+* {
+  font-family: 'Poppins';
 }
