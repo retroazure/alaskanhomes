@@ -6,18 +6,14 @@
 }
 
 #property-types > button {
-  color: #287eff;
   outline: none;
   border: none;
   border-radius: 20px;
   padding: 18px;
-  background: none;
+  background-color: white;
 }
 
-/* #property-types > button > .selected {
-  background-color: #c3dbff;
-} */
-
-#selected {
-    background-color: #c3dbff !important;
+#property-types > #selected {
+  color: #287eff;
+  background-color: #c3dbff !important;
 }
